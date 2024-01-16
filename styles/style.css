@@ -1,0 +1,94 @@
+/* mulish font */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
+</style>
+/* share style */
+*{
+  font-family: "Mulish", sans-serif;
+}
+body{
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.text-description-color{
+    color: #FFF;
+    font-size: 1rem;
+    width: 676px;
+}
+/* header section start */
+/* nav section style */
+label{
+    display: flex;
+    align-items: center;
+}
+label > brand-logo{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 400px;
+    font-size: 1.15rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}
+.active{
+    color: #FF5400;;
+}
+.nav-title{
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.nav-title .exclu-sive{
+    color: #131318;
+}
+.nav-title .travels{
+    color: #FF5400;
+}
+/* header banner section  */
+.banner{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    text-align: center;
+}
+.travel{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.icons{
+    height: 20px;
+    width: 20px;
+    padding-left: 20px;
+}
+.icons1{
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
+.btn-primary, .btn-primary1{
+    font-size: 1rem;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+}
+.btn-primary{
+    color: rgba(19, 19, 24, 0.50);
+}
+.btn-primary1{
+    background-color: #FF5400; 
+    color: #FFF;
+}
