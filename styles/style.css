@@ -133,6 +133,11 @@ nav li a{
         display: flex;
         gap: 50px;
 }
+.popular-tours-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
 #text-measurment{
     margin-right: 30px;
     padding-top: 25px;
@@ -157,6 +162,67 @@ nav li a{
     cursor: pointer;
     border: 0;
 }
+.destination-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choose-destination{
+    max-width: 640px;
+    text-align: center;
+    margin: 0 auto;
+}
+#destnation-text{
+padding-bottom: 50px;
+}
+
+
+
+/* footer section */
+.footer{
+width: 1440px;
+height: 502px;
+text-align: center;
+margin: 0 auto;
+background: rgba(19, 19, 24, 0.05);
+}
+.footer-title{
+    font-size: 1.25rem;
+    font-weight: 800; 
+}
+.footer-title .exclu-sive{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.footer-title .travels{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+.brand-logo1{
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.footer-description{
+    max-width: 770px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-icon{
+    max-width: 100px;
+    text-align: center;
+    margin: 0 auto;   
+}
+
+
+
+
+
+
+
 
 
 
