@@ -7,12 +7,17 @@
   font-family: "Mulish", sans-serif;
 }
 body{
-    margin-left: 135px;
-    margin-right: 135px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 .text-description-color{
     color: #FFF;
     font-size: 1rem;
+}
+.text-description-color1{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
 }
 /* header section start */
 /* nav section style */
@@ -22,6 +27,23 @@ label{
 }
 label > brand-logo{
     display: flex;
+}
+.brand-logo{
+    width: 50px;
+    height: 60px;
+}
+.nav-title{
+    margin-left: 10px;
+}
+.nav-title .exclu-sive{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-title .travels{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
 }
 nav{
     display: flex;
@@ -33,7 +55,7 @@ nav > ul{
 }
 nav li{
     list-style: none;
-    margin-right: 40px;
+    margin-right: 30px;
     font-weight: 400px;
     font-size: 1.15rem;
 }
@@ -48,12 +70,6 @@ nav li a{
     font-size: 1.25rem;
     font-weight: 800;
 }
-.nav-title .exclu-sive{
-    color: #131318;
-}
-.nav-title .travels{
-    color: #FF5400;
-}
 /* header banner section  */
 .banner{
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
@@ -65,8 +81,18 @@ nav li a{
     height: 500px;
     text-align: center;
 }
+.banner-content{  
+    margin: 0 auto;
+    font-size: 4rem;
+} 
+#text-description{
+    max-width: 676px;
+    margin: 0 auto;
+}
 .travel{
     color: #FFF;
+    margin-left: 280px;
+    margin-right: 280px;
     padding-top: 100px;
     font-size: 4rem;
     font-weight: 800;
@@ -75,6 +101,7 @@ nav li a{
     height: 20px;
     width: 20px;
     padding-left: 20px;
+
 }
 .icons1{
     height: 20px;
@@ -90,6 +117,8 @@ nav li a{
     height: 52px;
     border-radius: 8px;
     background: #FFF;
+    cursor: pointer;
+    border: 0;
 }
 .btn-primary{
     color: rgba(19, 19, 24, 0.50);
@@ -97,6 +126,36 @@ nav li a{
 .btn-primary1{
     background-color: #FF5400; 
     color: #FFF;
+}
+/* populer toure section */
+.popular-tours{
+        margin: 100px 135px;
+        display: flex;
+        gap: 50px;
+}
+#text-measurment{
+    margin-right: 30px;
+    padding-top: 25px;
+    width: 560px;
+}
+#text-measurment1{
+    margin-right: 30px;
+    padding-top: 16px;
+    width: 500px;
+}
+.text-measurment2{
+    padding-top: 25px;
+    width: 500px;
+}
+.btn-primary11{
+    margin-top: 50px;
+    font-size: 1rem;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    cursor: pointer;
+    border: 0;
 }
 
 
